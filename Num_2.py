@@ -1,8 +1,6 @@
-student1 = 80.0
-student2 = 90.0
-student3 = 66.5
-average = (student1 + student2 + student3)/3
-print(student1)
-print(student2)
-print(student3)
-print("Average: " + str(average))
+def average(student1, student2, student3):
+    print("Student 1 have " + str(student1) + "points.")
+    print("Student 2 have " + str(student2) + "points.")
+    print("Student 3 have " + str(student3) + "points.")
+    print("Average: " + str((student1+student2+student3)/3))
+average(80.0, 90.0, 66.5)

@@ -1,2 +1,4 @@
-print("Degrees: 150")
-print("Radians: " + str((150/180)*3.14))
+def DtR(Degrees):
+    print("Degrees: " + str(Degrees))
+    print("Radians: " + str((Degrees/180)*3.14))
+DtR(150)
